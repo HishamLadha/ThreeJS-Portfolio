@@ -47,7 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-3-3xl leading-[30px]'
       >
-       I'm a Computer Science Student interested in software development, cybersecurity and AI. I'm experienced in web design (front-end and back-end), graphic design, Windows/Linux exploitation and Network Reconnaissance/ Enumeration.
+       I'm a Computer Science Student interested in software development, cybersecurity and AI. I'm experienced in web development, graphic design, Windows/Linux exploitation and Network Reconnaissance.
        Currently, I'm learning modern JavaScript frameworks and building cool personal projects with them (this website too!).
       </motion.p>
 
