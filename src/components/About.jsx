@@ -51,7 +51,7 @@ const About = () => {
        Currently, I'm learning modern JavaScript frameworks and building cool personal projects with them (this website too!).
       </motion.p>
 
-      <div className='mt-20 flex flex-wrap gap-10'>
+      <div className='mt-20 place-content-center flex flex-wrap gap-20'>
         {services.map((service, index) => (
             <ServiceCard key={service.title} index={index} {...service}/>
         ))}

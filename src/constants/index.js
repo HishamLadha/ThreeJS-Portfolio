@@ -132,7 +132,7 @@ import {
       title: "Lead Web Developer",
       company_name: "DoMore 2021 - Aga Khan Academy, Mombasa",
       icon: agakhan,
-      iconBg: "#E6DEDD",
+      iconBg: "#383E56",
       date: "Jan 2021 - June 2021",
       points: [
         "Front-end development for the DoMore fundraising website (over USD 40,000 raised).",
