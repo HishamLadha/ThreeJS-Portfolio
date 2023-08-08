@@ -29,6 +29,7 @@ import ted from "./company/ted.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import coming_soon from './coming_soon.png';
 
 export {
   logo,
@@ -59,4 +60,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  coming_soon
 };

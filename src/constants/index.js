@@ -23,6 +23,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    coming_soon
   } from "../assets";
   
   export const navLinks = [
@@ -198,9 +199,9 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Top-Secret Project 🕵️‍♂️",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Currently brewing some code magic for this one! Stay tuned for a spellbinding reveal.",
       tags: [
         {
           name: "react",
@@ -215,13 +216,13 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: coming_soon,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Project X: The Enigma 🛸",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Aliens might have had a hand in this one. Beam back soon for an out-of-this-world reveal!",
       tags: [
         {
           name: "react",
@@ -236,13 +237,13 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: coming_soon,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Code-named: Treasure Island",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Sailing the digital seas to bring you a gem of a project. Drop anchor back here soon!",
       tags: [
         {
           name: "nextjs",
@@ -257,7 +258,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: coming_soon,
       source_code_link: "https://github.com/",
     },
   ];
