@@ -1,29 +1,23 @@
 import {
     mobile,
-    backend,
-    creator,
     web,
     javascript,
     typescript,
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
     mongodb,
     git,
     figma,
     docker,
-    meta,
     agakhan,
     ted,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
-    coming_soon
+    coming_soon,
+    flixx_app,
+    sumz
   } from "../assets";
   
   export const navLinks = [
@@ -170,75 +164,79 @@ import {
     // },
   ];
   
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
+  // const testimonials = [
+  //   {
+  //     testimonial:
+  //       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+  //     name: "Sara Lee",
+  //     designation: "CFO",
+  //     company: "Acme Co",
+  //     image: "https://randomuser.me/api/portraits/women/4.jpg",
+  //   },
+  //   {
+  //     testimonial:
+  //       "I've never met a web developer who truly cares about their clients' success like Rick does.",
+  //     name: "Chris Brown",
+  //     designation: "COO",
+  //     company: "DEF Corp",
+  //     image: "https://randomuser.me/api/portraits/men/5.jpg",
+  //   },
+  //   {
+  //     testimonial:
+  //       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+  //     name: "Lisa Wang",
+  //     designation: "CTO",
+  //     company: "456 Enterprises",
+  //     image: "https://randomuser.me/api/portraits/women/6.jpg",
+  //   },
+  // ];
   
   const projects = [
     {
-      name: "Top-Secret Project 🕵️‍♂️",
+      name: "Flixx",
       description:
-        "Currently brewing some code magic for this one! Stay tuned for a spellbinding reveal.",
+        "Movie app using TMDB API v3 built with vanilla JavaScript; shows popular films/TV, details, search, pagination and more.",
+      tags: [
+        {
+          name: "javascript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "api",
+          color: "green-text-gradient",
+        },
+        {
+          name: "vanillaJS",
+          color: "white-text-gradient",
+        }
+      ],
+      image: flixx_app,
+      source_code_link: "https://github.com/HishamLadha/flixx-app",
+    },
+    {
+      name: "AI Article Summarizer",
+      description:
+        "AI-powered application that extracts and summarizes content from article links using the OpenAI API.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
         },
         {
           name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: coming_soon,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Project X: The Enigma 🛸",
-      description:
-        "Aliens might have had a hand in this one. Beam back soon for an out-of-this-world reveal!",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "redux",
           color: "pink-text-gradient",
         },
+        {
+          name: "OpenAI",
+          color: "orange-text-gradient",
+        },
       ],
-      image: coming_soon,
-      source_code_link: "https://github.com/",
+      image: sumz,
+      source_code_link: "https://github.com/HishamLadha/ai_summarizer",
     },
     {
       name: "Code-named: Treasure Island",
@@ -259,8 +257,8 @@ import {
         },
       ],
       image: coming_soon,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/HishamLadha",
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, projects };

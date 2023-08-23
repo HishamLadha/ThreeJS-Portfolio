@@ -21,15 +21,14 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
+
 import agakhan from "./company/agakhan.png";
 import ted from "./company/ted.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+
 import coming_soon from './coming_soon.png';
+import flixx_app from './flixx-app.png';
+import sumz from './sumz.png';
 
 export {
   logo,
@@ -53,12 +52,9 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
   agakhan,
   ted,
-  carrent,
-  jobit,
-  tripguide,
-  coming_soon
+  coming_soon,
+  flixx_app,
+  sumz
 };
