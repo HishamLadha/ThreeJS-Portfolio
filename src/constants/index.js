@@ -147,6 +147,7 @@ import {
       name: "Flixx",
       description:
         "Movie app using TMDB API v3 built with vanilla JavaScript; shows popular films/TV, details, search, pagination and more.",
+      additional_info: "",
       tags: [
         {
           name: "javascript",
@@ -169,6 +170,7 @@ import {
       name: "AI Article Summarizer",
       description:
         "AI-powered application that extracts and summarizes content from article links using the OpenAI API.",
+      additional_info: "",
       tags: [
         {
           name: "react",
@@ -192,21 +194,80 @@ import {
       project_link: "https://sumz.hishamladha.com"
     },
     {
-      name: "Code-named: Treasure Island",
+      name: "Hectic Garage",
       description:
-        "Sailing the digital seas to bring you a gem of a project. Drop anchor back here soon!",
+        "Secure web dashboard showing revenue generated & potential revenue missed through a for a tire repair shop.",
+      additional_info: "Won 3rd place for the SAP hackathon challenge at ConUHacks VIII",
       tags: [
         {
-          name: "nextjs",
+          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "tailwind",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "firebase",
           color: "pink-text-gradient",
+        },
+        {
+          name: "python",
+          color: "orange-text-gradient",
+        },
+      ],
+      image: coming_soon,
+      source_code_link: "https://github.com/HishamLadha",
+      
+    },
+    {
+      name: "Hectic Garage",
+      description:
+        "Secure web dashboard showing revenue generated & potential revenue missed through a for a tire repair shop.",
+      additional_info: "Won 3rd place for the SAP hackathon challenge at ConUHacks VIII",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "green-text-gradient",
+        },
+        {
+          name: "firebase",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "python",
+          color: "orange-text-gradient",
+        },
+      ],
+      image: coming_soon,
+      source_code_link: "https://github.com/HishamLadha",
+      
+    },
+    {
+      name: "Hectic Garage",
+      description:
+        "Secure web dashboard showing revenue generated & potential revenue missed through a for a tire repair shop.",
+      additional_info: "Won 3rd place for the SAP hackathon challenge at ConUHacks VIII",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "green-text-gradient",
+        },
+        {
+          name: "firebase",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "python",
+          color: "orange-text-gradient",
         },
       ],
       image: coming_soon,

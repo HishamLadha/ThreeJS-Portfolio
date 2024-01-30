@@ -10,7 +10,7 @@ import { fadeIn, textVariant } from "../utils/motion";
 
 
 
-const ProjectCard = ({ index, name, description, tags, image, source_code_link, project_link}) => {
+const ProjectCard = ({ index, name, description, additional_info, tags, image, source_code_link, project_link}) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
         <Tilt
@@ -19,7 +19,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
             scale: 1,
             speed: 450
           }}
-          className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
+          className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full "
         >
           <div className="relative w-full h-[230px]">
             <img
@@ -57,9 +57,17 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
 
             </div>
           </div>
+          
+          
 
           <div className="mt-5">
-            <h3 className="text-whtie font-bold text-[24px]">{name}</h3>
+            <h3 className="text-white font-bold text-[24px]">{name}</h3>
+            {additional_info &&
+            <p className="mt-1 text-secondary text-[12px] italic"> 
+              {additional_info}
+            </p>
+            }
+            
             <p className="mt-2 text-secondary text-[14px]">{description}</p>
           </div>
 
@@ -91,7 +99,7 @@ const Projects = () => {
         </motion.p> */}
       </div>
 
-      <div className="mt-20 flex flex-wrap gap-7">
+      <div className="mt-20 grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 gap-7">
         {projects.map((project, index) => (
           <ProjectCard
             key={`project-${index}`}
