@@ -17,17 +17,19 @@ import {
     threejs,
     coming_soon,
     flixx_app,
-    sumz
+    sumz,
+    scs,
+    rbc
   } from "../assets";
   
   export const navLinks = [
     {
-      id: "about",
-      title: "About",
+      id: "experience",
+      title: "Experience",
     },
     {
-      id: "work",
-      title: "Work",
+      id: "projects",
+      title: "Projects",
     },
     {
       id: "contact",
@@ -37,21 +39,13 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Software Developer",
       icon: web,
     },
     {
       title: "Computer Science Student",
       icon: mobile,
     },
-    // {
-    //   title: "",
-    //   icon: backend,
-    // },
-    // {
-    //   title: "Content Creator",
-    //   icon: creator,
-    // },
   ];
   
   const technologies = [
@@ -75,10 +69,6 @@ import {
       name: "React JS",
       icon: reactjs,
     },
-    // {
-    //   name: "Redux Toolkit",
-    //   icon: redux,
-    // },
     {
       name: "Tailwind CSS",
       icon: tailwind,
@@ -111,85 +101,46 @@ import {
   
   const experiences = [
     {
-      title: "IT Team Lead",
+      title: "Software Developer Intern",
+      company_name: "Royal Bank of Canada (RBC)",
+      icon: rbc,
+      iconBg: "#383E56",
+      date: "Jan 2024 - Present",
+      points: [
+        "International Money Transfer",
+         ],
+    },
+    {
+      title: "Director of Technology",
+      company_name: "Software Engineering and Computer Science Society (SCS) Concordia",
+      icon: scs,
+      iconBg: "#383E56",
+      date: "Oct 2023 - Present",
+      points: [
+        "Work with 4 directors on projects including the SCS and Algotime websites",
+         ],
+    },
+    {
+      title: "Software Engineer",
+      company_name: "DoMore 2021",
+      icon: agakhan,
+      iconBg: "#383E56",
+      date: "Jan 2021 - June 2021",
+      points: [
+        "Led a team of 2 developers to engineer a tuition fundraising website using JavaScript, HTML, CSS and Figma for underprivileged East African students, with over $40,000 USD raised",
+        ],
+    },
+    {
+      title: "Web Developer",
       company_name: "TEDxYouth@AKAMombasa",
       icon: ted,
       iconBg: "#383E56",
       date: "Sep 2019 - Jan 2021",
       points: [
-        "Front-end development and general IT oversight for the 2020 TEDxYouth@AKAMombasa Event.",
-        "Built upon the website by adding JavaScript components and later migrated the contents to WordPress for simpler content management.",
-        "Organized screen projection and audio interface communication for every TED talk.",
-
-      ],
+        "Built upon the TEDxYouth website by adding Javascript components and migrating the website to WordPress CMS reducing content update times by 50%",
+         ],
     },
-    {
-      title: "Lead Web Developer",
-      company_name: "DoMore 2021 - Aga Khan Academy, Mombasa",
-      icon: agakhan,
-      iconBg: "#383E56",
-      date: "Jan 2021 - June 2021",
-      points: [
-        "Front-end development for the DoMore fundraising website (over USD 40,000 raised).",
-        "Led a team of 2 developers to design and develop the fundraising website for the 2021 DoMore initiative",
-        "Coordinated with the media and finance team to add scheduled content to the website including success story videos/testimonials, student backgrounds, graduation photos.",
-        "Improved the user experience over time by modifying the position and behavior of different elements based on feedback from the entire team."
-      ],
-    },
-    // {
-    //   title: "Web Developer",
-    //   company_name: "Shopify",
-    //   icon: shopify,
-    //   iconBg: "#383E56",
-    //   date: "Jan 2022 - Jan 2023",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
-    // {
-    //   title: "Full stack Developer",
-    //   company_name: "Meta",
-    //   icon: meta,
-    //   iconBg: "#E6DEDD",
-    //   date: "Jan 2023 - Present",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
   ];
-  
-  // const testimonials = [
-  //   {
-  //     testimonial:
-  //       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-  //     name: "Sara Lee",
-  //     designation: "CFO",
-  //     company: "Acme Co",
-  //     image: "https://randomuser.me/api/portraits/women/4.jpg",
-  //   },
-  //   {
-  //     testimonial:
-  //       "I've never met a web developer who truly cares about their clients' success like Rick does.",
-  //     name: "Chris Brown",
-  //     designation: "COO",
-  //     company: "DEF Corp",
-  //     image: "https://randomuser.me/api/portraits/men/5.jpg",
-  //   },
-  //   {
-  //     testimonial:
-  //       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-  //     name: "Lisa Wang",
-  //     designation: "CTO",
-  //     company: "456 Enterprises",
-  //     image: "https://randomuser.me/api/portraits/women/6.jpg",
-  //   },
-  // ];
   
   const projects = [
     {
@@ -212,6 +163,7 @@ import {
       ],
       image: flixx_app,
       source_code_link: "https://github.com/HishamLadha/flixx-app",
+      project_link: "https://flixx.hishamladha.com",
     },
     {
       name: "AI Article Summarizer",
@@ -237,6 +189,7 @@ import {
       ],
       image: sumz,
       source_code_link: "https://github.com/HishamLadha/ai_summarizer",
+      project_link: "https://sumz.hishamladha.com"
     },
     {
       name: "Code-named: Treasure Island",
@@ -258,6 +211,7 @@ import {
       ],
       image: coming_soon,
       source_code_link: "https://github.com/HishamLadha",
+      
     },
   ];
   

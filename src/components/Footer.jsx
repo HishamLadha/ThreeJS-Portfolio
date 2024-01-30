@@ -11,7 +11,7 @@ const Footer = () => {
       <div className={`p-5 bg-tertiary rounded-2xl`}>
         <motion.div>
           <p className={`${styles.sectionSubText} flex justify-center`}>
-          © 2023 Hisham Ladha. Credits to JSM.
+          © 2024 Hisham Ladha. Credits to JSM.
           </p>
           {/* <h2 className={styles.sectionHeadText}>
             Testimonials.

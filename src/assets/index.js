@@ -4,6 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import link from "./link.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -24,6 +25,8 @@ import threejs from "./tech/threejs.svg";
 
 import agakhan from "./company/agakhan.png";
 import ted from "./company/ted.png";
+import scs from './company/scs.png';
+import rbc from './company/rbc.png';
 
 
 import coming_soon from './coming_soon.png';
@@ -56,5 +59,8 @@ export {
   ted,
   coming_soon,
   flixx_app,
-  sumz
+  sumz,
+  link,
+  scs,
+  rbc
 };

@@ -3,13 +3,14 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { github } from "../assets";
+import { link } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
 
 
-const ProjectCard = ({ index, name, description, tags, image, source_code_link}) => {
+const ProjectCard = ({ index, name, description, tags, image, source_code_link, project_link}) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
         <Tilt
@@ -42,17 +43,17 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link})
               {/*The following can be used to create another icon for a live project demo link 
                 Need to add
               */}
-              {/* <div
-                onClick={() => window.open(source_code_link, "_blank")}
+              <div
+                onClick={() => window.open(project_link, "_blank")}
                 className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
               >
                 <img
-                  src={github}
+                  src={link}
                   alt='github'
                   className="w-1/2 h-1/2 object-contain"
                 />
 
-              </div> */}
+              </div>
 
             </div>
           </div>
@@ -74,7 +75,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link})
   )
 }
 
-const Works = () => {
+const Projects = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -83,12 +84,11 @@ const Works = () => {
       </motion.div>
 
       <div className="w-full flex">
-        <motion.p
+        {/* <motion.p
           variants={fadeIn("","",0.1,1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-            My projects are a showcase of my skills and hands-on experience. Each one comes with a brief overview, links to the code, and live demos. They highlight my knack for tackling complex problems, my familiarity with various tech tools, and my ability to manage projects effectively.
-        </motion.p>
+        </motion.p> */}
       </div>
 
       <div className="mt-20 flex flex-wrap gap-7">
@@ -105,4 +105,4 @@ const Works = () => {
   )
 }
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Projects, "projects");
